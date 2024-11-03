@@ -10,6 +10,6 @@ COPY internal ./internal
 
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags "-s -w" -o /prom-opendata-zh-parking
 
-EXPOSE 4276
+EXPOSE 4277
 
 CMD ["/prom-opendata-zh-parking"]
